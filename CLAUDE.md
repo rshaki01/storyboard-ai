@@ -35,6 +35,7 @@ Next.js (App Router) · TypeScript · Tailwind · Zod · Anthropic SDK (`@anthro
 
 ```
 app/                 pages + app/api/* route handlers
+components/          React components ("use client" only where state/events are needed)
 lib/types.ts         domain types (Project, Scene, Concept, SelectedImage, ImageResult)
 lib/schemas.ts       Zod schemas (LLM output contract)
 lib/scenes.ts        pure scene operations
